@@ -13,4 +13,12 @@ class Pokedex extends Component {
       { id: 133, name: 'Eevee', type: 'normal', base_experience: 65 }
     ]
   }
+
+  render() {
+    return (
+      <div className="Pokedex">
+        
+      </div>
+    )
+  }
 }
