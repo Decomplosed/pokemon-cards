@@ -20,6 +20,7 @@ class Pokegame extends Component {
     while (hand1.length < hand2.length) {
       let randIdx = Math.floor(Math.random() * hand2.length)
       let randPokemon = hand2.splice(randIdx, 1)[0]
+      hand1.push(randPokemon)
     }
 
     return (
