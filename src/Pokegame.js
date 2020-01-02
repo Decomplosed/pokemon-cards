@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Pokedex from './Pokedex'
 
 class Pokegame extends Component {
   static defaultProps = {
