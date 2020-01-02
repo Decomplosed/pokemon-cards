@@ -15,6 +15,8 @@ class Pokegame extends Component {
   }
 
   render() {
+    let hand1 = []
+    let hand2 = [...this.props.pokemon]
     return (
       <div>
         <h1>Pokegame!</h1>
